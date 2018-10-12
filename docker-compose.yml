@@ -1,0 +1,11 @@
+version: '3'
+services:
+  asterixdb:
+    command: entrypoint.sh
+    image: ds42/asterixdb:0.9.5-SNAPSHOT
+    ports: 
+      - 19001:19001
+      - 19002:19002
+      - 8888:8888
+      - 19003:19003
+      - 50031:50031
