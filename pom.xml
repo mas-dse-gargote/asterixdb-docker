@@ -22,7 +22,7 @@
 
     <groupId>org.apache.asterix</groupId>
     <artifactId>asterix-docker</artifactId>
-    <version>0.9.4</version>
+    <version>0.9.4.1</version>
 
     <build>
       <plugins>
